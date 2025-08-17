@@ -55,3 +55,18 @@ Vdd vdd 0 1.8V
 Vin in 0 1.8V
 
 .dc Vdd 0 1.8 0.1 Vin 0 1.8 0.2
+
+Results and Analysis
+The resulting Id vs. Vds plot clearly shows the linear (resistive) and saturation regions of the NMOS transistor. For this short-channel device (L=0.15µm), the saturation current does not exhibit a quadratic dependence on Vgs, a deviation from the classical long-channel model. This is primarily due to velocity saturation, where carrier velocity ceases to increase linearly with the electric field, limiting the drain current.
+The plot of Id vs. Vgs was also generated to graphically estimate the threshold voltage (Vt), which was determined by extrapolating the linear portion of the curve to the x-axis.
+![alt text](https://user-images.githubusercontent.com/89193562/132675399-e8f69dc7-f222-4e91-81fc-4cb2639213d4.JPG)
+![alt text](https://user-images.githubusercontent.com/89193562/132675655-f779b9be-bcee-4d31-8a62-6204bc0bca40.JPG)
+Figure 1: Id vs. Vds characteristics, demonstrating the onset of velocity saturation.	Figure 2: Id vs. Vgs curve used for the graphical extraction of the threshold voltage (Vt).
+4.2. Experiment 2: CMOS Inverter Static and Dynamic Analysis
+Objective
+To design a CMOS inverter using SKY130 transistors and characterize its static Voltage Transfer Curve (VTC) and dynamic (transient) performance, including propagation delay.
+Simulation Setup
+A CMOS inverter was constructed using a PMOS and an NMOS transistor. The analysis involved two parts:
+DC Analysis: Vin was swept from 0V to 1.8V to obtain the VTC.
+Transient Analysis: A pulse input was applied to Vin to measure rise time, fall time, and propagation delays.
+SPICE Netlist Snippet (Transient Analysis):
