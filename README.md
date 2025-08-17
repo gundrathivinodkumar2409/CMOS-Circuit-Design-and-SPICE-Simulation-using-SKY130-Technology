@@ -1,6 +1,6 @@
 # Project Report: CMOS Circuit Design & SPICE Simulation with the SKY130 PDK
 
-<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/ffaeccff-08ce-458e-82c8-acdc2942ed05" />
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/53319ae6-ecb7-438e-bd98-cf98ce40a0c0" />
 
 
 ## 1. Executive Summary
@@ -55,3 +55,25 @@ Vdd vdd 0 1.8V
 Vin in 0 1.8V
 
 .dc Vdd 0 1.8 0.1 Vin 0 1.8 0.2
+
+### 4.2. Experiment 2: CMOS Inverter Static and Dynamic Analysis
+
+#### **Objective**
+To design a CMOS inverter using SKY130 transistors and characterize its static Voltage Transfer Curve (VTC) and dynamic (transient) performance, including propagation delay.
+
+#### **Simulation Setup**
+A CMOS inverter was constructed using a PMOS and an NMOS transistor. The analysis involved two parts:
+1. DC Analysis: Vin was swept from 0V to 1.8V to obtain the VTC.
+2. Transient Analysis: A pulse input was applied to Vin to measure rise time, fall time, and propagation delays.
+
+**SPICE Netlist Snippet:**
+* CMOS Inverter Transient Analysis
+.lib "sky130_fd_pr/models/sky130.lib.spice" tt
+
+XM1 out in vdd vdd sky130_fd_pr__pfet_01v8 w=0.84 l=0.15
+XM2 out in 0 0 sky130_fd_pr__nfet_01v8 w=0.36 l=0.15
+Cload out 0 50fF
+Vdd vdd 0 1.8V
+Vin in 0 PULSE(0V 1.8V 0 0.1ns 0.1ns 2ns 4ns)
+
+.tran 1n 10n
