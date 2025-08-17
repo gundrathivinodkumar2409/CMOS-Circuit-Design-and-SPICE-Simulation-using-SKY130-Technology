@@ -44,8 +44,12 @@ To simulate and analyze the current-voltage (I-V) characteristics of a SKY130 NM
 #### **Theoretical Background**
 The operation of an NMOS transistor is governed by its gate-to-source (`Vgs`) and drain-to-source (`Vds`) voltages. Key concepts include the **Threshold Voltage (Vt)**, the minimum `Vgs` required to form a conductive channel, and the distinct regions of operation: cut-off, linear (resistive), and saturation.
 
-![Figure 1: NMOS Construction](https://user-images.githubusercontent.com/89193562/132697108-70c1704e-7389-4d04-84c3-189d945e04d5.jpg)
-*Figure 1: Cross-section of an NMOS transistor.*
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/47664757-b6de-4b23-9c03-65585f06d1c0" />
+*Figure 1: NMOS Characteristics: Cut-off, Linear, and Saturation Regions.*
+
+
+
+
 
 For modern, short-channel devices (<250nm), the classical quadratic current-voltage relationship in saturation is modified by **velocity saturation**, where carrier velocity no longer increases linearly with the electric field. This causes the drain current to become linearly dependent on `Vgs` and saturate earlier, impacting device performance.
 
