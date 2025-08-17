@@ -4,7 +4,7 @@
 
 ## 1. Executive Summary
 
-This report documents the practical application of CMOS circuit design principles and SPICE simulation techniques learned during the "CMOS Circuit Design and SPICE Simulation using SKY130 Technology" workshop by [VLSI System Design] (https://www.vlsisystemdesign.com/). The project involved the end-to-end characterization of fundamental semiconductor devices and digital logic circuits using the open-source **SkyWater 130nm (SKY130) Process Design Kit (PDK)**.
+This report documents the practical application of CMOS circuit design principles and SPICE simulation techniques learned during the "CMOS Circuit Design and SPICE Simulation using SKY130 Technology" workshop by [VLSI System Design]( https://www.vlsisystemdesign.com/). The project involved the end-to-end characterization of fundamental semiconductor devices and digital logic circuits using the open-source **SkyWater 130nm (SKY130) Process Design Kit (PDK)**.
 
 Key activities included characterizing NMOS I-V curves, analyzing velocity saturation effects in short-channel devices, and performing comprehensive static and dynamic analyses of a CMOS inverter. The project culminated in a robustness evaluation of the inverter, examining its performance under variations in transistor sizing, power supply, and process corners. All simulations were conducted using **NGSPICE**, providing hands-on experience with industry-standard circuit analysis methodologies.
 
