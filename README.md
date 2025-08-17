@@ -1,6 +1,7 @@
 # Project Report: CMOS Circuit Design & SPICE Simulation with the SKY130 PDK
 
-[![CMOS-Workshop-Banner](https://user-images.githubusercontent.com/89193562/133044335-5f27320f-072d-43c9-b02b-f807298c7763.jpg)](https://www.vlsisystemdesign.com/cmos-circuit-design-spice-simulation-using-sky130-technology/)
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/ffaeccff-08ce-458e-82c8-acdc2942ed05" />
+
 
 ## 1. Executive Summary
 
