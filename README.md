@@ -49,7 +49,7 @@ The operation of an NMOS transistor is governed by its gate-to-source (`Vgs`) an
 
 For modern, short-channel devices (<250nm), the classical quadratic current-voltage relationship in saturation is modified by **velocity saturation**, where carrier velocity no longer increases linearly with the electric field. This causes the drain current to become linearly dependent on `Vgs` and saturate earlier, impacting device performance.
 
-![Figure 2: Velocity Saturation Effect](https://user-images.githubusercontent.com/89193562/132679374-baa32830-fcca-49c3-be54-10b5caf2c5d3.png)
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/9739fbbe-e3f8-4b54-8674-1c499e9a8c2b" />
 *Figure 2: Carrier velocity saturates at high electric fields.*
 
 #### **Lab Activity: I-V Curve Simulation**
@@ -99,7 +99,7 @@ To design a CMOS inverter using SKY130 transistors and characterize its static V
 #### **Theoretical Background**
 A CMOS inverter consists of a PMOS and an NMOS transistor. Its VTC is derived by superimposing the load curves of the two transistors. The intersection points for different input voltages define the output voltage, resulting in a characteristic curve with a high-gain transition region.
 
-![alt text](https://user-images.githubusercontent.com/89193562/132946435-09010251-dd7e-4af4-b791-ea5655dd171f.jpg)
+**<GVLGVLGVL>**
 Figure 5: The inverter's VTC is determined by the intersection of the PMOS and NMOS load curves.
 
 #### **Lab Activity 1: VTC Simulation**
