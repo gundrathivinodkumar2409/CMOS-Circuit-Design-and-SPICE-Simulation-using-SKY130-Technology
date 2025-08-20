@@ -99,6 +99,7 @@ To design a CMOS inverter using SKY130 transistors and characterize its static V
 #### **Theoretical Background**
 A CMOS inverter consists of a PMOS and an NMOS transistor. Its VTC is derived by superimposing the load curves of the two transistors. The intersection points for different input voltages define the output voltage, resulting in a characteristic curve with a high-gain transition region.
 
+<img width="697" height="651" alt="image" src="https://github.com/user-attachments/assets/de89c849-d675-4806-8d1d-942b79051166" />
 Figure 5: The inverter's VTC is determined by the intersection of the PMOS and NMOS load curves.
 
 #### **Lab Activity 1: VTC Simulation**
