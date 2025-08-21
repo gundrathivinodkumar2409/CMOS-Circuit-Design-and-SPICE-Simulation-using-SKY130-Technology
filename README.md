@@ -4,11 +4,23 @@
 
 ## 1. Executive Summary
 
-This report provides a comprehensive analysis of CMOS circuit design, simulation, and characterization, based on the hands-on "NgspiceSky130" workshop by [VLSI System Design]( https://www.vlsisystemdesign.com/). Using the open-source **SkyWater 130nm (SKY130) PDK** and **NGSPICE**, this project documents the end-to-end workflow from fundamental device physics to system-level performance considerations.
+This repository presents a detailed technical summary of the experiments and learnings from the "CMOS Circuit Design and SPICE Simulation using SKY130 Technology Workshop" organized by [VLSI System Design]( https://www.vlsisystemdesign.com/). The project involved a comprehensive, transistor-level analysis of fundamental CMOS circuits. All simulations were performed using the Ngspice circuit simulator with the open-source SKY130 Process Design Kit (PDK). The core focus was on characterizing device behavior, analyzing the static and dynamic performance of a CMOS inverter, and evaluating its robustness against process and environmental variations.
 
-The analysis begins with the characterization of NMOS I-V curves, exploring the impact of short-channel effects like **velocity saturation**. It then progresses to the design and optimization of a CMOS inverter, covering its static (VTC, Noise Margin, Switching Threshold) and dynamic (propagation delay) behavior. A key focus was placed on **robustness evaluation**, systematically analyzing the inverter's resilience to power supply and device variations through scripted, parametric SPICE simulations. The project concludes by connecting these circuit-level metrics to their real-world impact on digital systems, such as in clock networks and **Static Timing Analysis (STA)**.
+## 2. Core Competencies and Skills Demonstrated
+(i) Semiconductor Device Physics: Strong understanding of NMOS/PMOS transistor operation, including I-V characteristics, operating regions, velocity saturation, and the body effect.
+(ii) SPICE Simulation & Analysis: Proficiency in writing SPICE netlists for DC, transient, and parametric sweep analyses. Skilled in interpreting simulation outputs to extract critical performance metrics.
+(iii) CMOS Circuit Characterization: In-depth analysis of CMOS inverter performance, including:
+a. Voltage Transfer Characteristics (VTC)
+b. Switching Threshold (Vm)
+c. Noise Margins (NML, NMH)
+d. Propagation Delay, Rise/Fall Times
+(iv) Robustness and Variability Analysis: Practical experience in evaluating the impact of Process, Voltage, and Temperature (PVT) variations on circuit performance, a critical aspect of modern IC design.
+(v) EDA Tools & Technology:
+a. Simulator: Ngspice
+b. PDK: SKY130 130nm
+c. Waveform Analysis: GtkWave (or other relevant tool)
 
-## 2. Table of Contents
+## 3. Table of Contents
 
 1.  [Executive Summary](#1-executive-summary)
 2.  [Table of Contents](#2-table-of-contents)
