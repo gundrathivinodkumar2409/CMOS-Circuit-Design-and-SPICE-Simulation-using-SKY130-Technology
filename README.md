@@ -8,13 +8,17 @@ This repository presents a detailed technical summary of the experiments and lea
 
 ## 2. Core Competencies and Skills Demonstrated
 (i) Semiconductor Device Physics: Strong understanding of NMOS/PMOS transistor operation, including I-V characteristics, operating regions, velocity saturation, and the body effect.
+
 (ii) SPICE Simulation & Analysis: Proficiency in writing SPICE netlists for DC, transient, and parametric sweep analyses. Skilled in interpreting simulation outputs to extract critical performance metrics.
+
 (iii) CMOS Circuit Characterization: In-depth analysis of CMOS inverter performance, including:
 a. Voltage Transfer Characteristics (VTC)
 b. Switching Threshold (Vm)
 c. Noise Margins (NML, NMH)
 d. Propagation Delay, Rise/Fall Times
+
 (iv) Robustness and Variability Analysis: Practical experience in evaluating the impact of Process, Voltage, and Temperature (PVT) variations on circuit performance, a critical aspect of modern IC design.
+
 (v) EDA Tools & Technology:
 a. Simulator: Ngspice
 b. PDK: SKY130 130nm
@@ -23,17 +27,18 @@ c. Waveform Analysis: GtkWave (or other relevant tool)
 ## 3. Table of Contents
 
 1.  [Executive Summary](#1-executive-summary)
-2.  [Table of Contents](#2-table-of-contents)
-3.  [Tools and Technology Stack](#3-tools-and-technology-stack)
-4.  [Experiments and Analysis](#4-experiments-and-analysis)
-    *   [4.1. Experiment 1: NMOS I-V Characterization](#41-experiment-1-nmos-i-v-characterization)
-    *   [4.2. Experiment 2: CMOS Inverter Static and Dynamic Analysis](#42-experiment-2-cmos-inverter-static-and-dynamic-analysis)
-    *   [4.3. Experiment 3: Inverter Robustness Evaluation](#43-experiment-3-inverter-robustness-evaluation)
-5.  [Key Learnings and Skill Development](#5-key-learnings-and-skill-development)
-6.  [Conclusion](#6-conclusion)
-7.  [Acknowledgements](#7-acknowledgements)
+2.  [Executive Summary](#2-Core-Competencies-and-Skills-Demonstrated)
+3.  [Table of Contents](#3-table-of-contents)
+4.  [Tools and Technology Stack](#4-tools-and-technology-stack)
+5.  [Experiments and Analysis](#5-experiments-and-analysis)
+    *   [4.1. Experiment 1: NMOS I-V Characterization](#51-experiment-1-nmos-i-v-characterization)
+    *   [4.2. Experiment 2: CMOS Inverter Static and Dynamic Analysis](#52-experiment-2-cmos-inverter-static-and-dynamic-analysis)
+    *   [4.3. Experiment 3: Inverter Robustness Evaluation](#53-experiment-3-inverter-robustness-evaluation)
+6.  [Key Learnings and Skill Development](#6-key-learnings-and-skill-development)
+7.  [Conclusion](#7-conclusion)
+8.  [Acknowledgements](#8-acknowledgements)
 
-## 3. Tools and Technology Stack
+## 4. Tools and Technology Stack
 
 | Category                 | Tool/Technology        | Description                                                       |
 | ------------------------ | ---------------------- | ----------------------------------------------------------------- |
@@ -44,11 +49,11 @@ c. Waveform Analysis: GtkWave (or other relevant tool)
 
 ---
 
-## 4. Experiments and Analysis
+## 5. Experiments and Analysis
 
 This section details the key laboratory exercises, including the theoretical background, simulation setup, results, and analysis for each experiment.
 
-### 4.1. Experiment 1: NMOS I-V Characterization
+### 5.1. Experiment 1: NMOS I-V Characterization
 
 #### **Objective**
 To simulate and analyze the current-voltage (I-V) characteristics of a SKY130 NMOS transistor, observing its behavior in different regions of operation and the impact of short-channel effects like velocity saturation.
@@ -103,7 +108,7 @@ Figure 3: Id vs. Vds characteristics, demonstrating the onset of velocity satura
 Figure 4: Id vs. Vgs curve used for the graphical extraction of the threshold voltage (Vt).
 
 
-### 4.2. Experiment 2: CMOS Inverter Static and Dynamic Analysis
+### 5.2. Experiment 2: CMOS Inverter Static and Dynamic Analysis
 
 #### **Objective**
 To design a CMOS inverter using SKY130 transistors and characterize its static Voltage Transfer Curve (VTC) and dynamic (transient) performance, including propagation delay and the impact of transistor sizing.
@@ -163,7 +168,7 @@ Figure 7: Input pulse (blue) and output response (red), used to measure propagat
 | 3x | 57 ps | 80 ps | 1.25 V |
 | 5x | 37 ps | 88 ps | 1.40 V |
 
-### 4.3. Experiment 3: Inverter Robustness Evaluation
+### 5.3. Experiment 3: Inverter Robustness Evaluation
 
 ### **Objective**
 To evaluate the robustness of the CMOS inverter design against variations in noise, power supply voltage, and manufacturing processes.
@@ -207,7 +212,7 @@ Figure 9: Superimposed VTCs for supply voltages ranging from 1.8V (rightmost) to
 ![alt text](https://user-images.githubusercontent.com/89193562/132985983-6313769f-5ef4-432d-87c9-ef39f7e572f0.JPG)
 Figure 10: A strong PMOS relative to the NMOS shifts the switching threshold to the right.
 
-## 5. Key Learnings and Skill Development
+## 6. Key Learnings and Skill Development
 This workshop provided a deep, practical understanding of the custom digital circuit design flow. The key skills developed are:
 
 1. **Semiconductor Device Physics:** Gained a practical understanding of MOSFET I-V characteristics, distinguishing between long and short-channel device behavior, and analyzing the impact of **velocity saturation** and the body effect.
@@ -216,8 +221,8 @@ This workshop provided a deep, practical understanding of the custom digital cir
 4. **Robustness and Variation Analysis:** Learned to evaluate circuit robustness by simulating the effects of **Process and Voltage (PV) variations**. This includes analyzing performance shifts due to power supply scaling and inherent manufacturing variations (e.g., etching, oxide thickness).
 5. **System-Level Application Context:** Developed an understanding of how fundamental cell characteristics (like delay and slew rate) directly impact the timing of larger digital systems, establishing a crucial link between circuit design and **Static Timing Analysis (STA)**.
 
-## 6. Conclusion
+## 7. Conclusion
 The "CMOS Circuit Design and SPICE Simulation using SKY130 Technology Workshop" has provided me with a solid foundation in the principles and practices of modern integrated circuit design. The hands-on experience with SPICE simulations and the SKY130 PDK has been invaluable in bridging the gap between theoretical knowledge and practical application. I am confident that the skills acquired in this workshop will be directly applicable to future projects and professional opportunities in the field of VLSI design.
 
-## 7. Acknowledgements
+## 8. Acknowledgements
 I would like to express my gratitude to the team at [VLSI System Design]( https://www.vlsisystemdesign.com/) for organizing and delivering this insightful and well-structured workshop. The expertise of the instructors and the quality of the learning materials were exceptional.
