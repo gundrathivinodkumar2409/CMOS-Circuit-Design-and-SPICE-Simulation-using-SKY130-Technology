@@ -27,10 +27,10 @@ c. Waveform Analysis: GtkWave (or other relevant tool)
 ## 3. Table of Contents
 
 1.  [Executive Summary](#1-executive-summary)
-2.  [Executive Summary](#2-Core-Competencies-and-Skills-Demonstrated)
+2.  [Core Competencies and Skills Demonstrated](#2-core-competencies-and-skills-demonstrated)
 3.  [Table of Contents](#3-table-of-contents)
 4.  [Tools and Technology Stack](#4-tools-and-technology-stack)
-5.  [Experiments and Analysis](#5-experiments-and-analysis)
+5.  [Experimental Modules and Analysis](#5-experimental-modules-and-analysis)
     *   [4.1. Experiment 1: NMOS I-V Characterization](#51-experiment-1-nmos-i-v-characterization)
     *   [4.2. Experiment 2: CMOS Inverter Static and Dynamic Analysis](#52-experiment-2-cmos-inverter-static-and-dynamic-analysis)
     *   [4.3. Experiment 3: Inverter Robustness Evaluation](#53-experiment-3-inverter-robustness-evaluation)
@@ -49,17 +49,19 @@ c. Waveform Analysis: GtkWave (or other relevant tool)
 
 ---
 
-## 5. Experiments and Analysis
+## 5. Experimental Modules and Analysis
 
 This section details the key laboratory exercises, including the theoretical background, simulation setup, results, and analysis for each experiment.
 
 ### 5.1. Experiment 1: NMOS I-V Characterization
 
 #### **Objective**
-To simulate and analyze the current-voltage (I-V) characteristics of a SKY130 NMOS transistor, observing its behavior in different regions of operation and the impact of short-channel effects like velocity saturation.
+To characterize the fundamental current-voltage (I-V) relationship of an NMOS transistor and understand its distinct operating regions.
 
-#### **Theoretical Background**
-The operation of an NMOS transistor is governed by its gate-to-source (`Vgs`) and drain-to-source (`Vds`) voltages. Key concepts include the **Threshold Voltage (Vt)**, the minimum `Vgs` required to form a conductive channel, and the distinct regions of operation: cut-off, linear (resistive), and saturation.
+#### **Methodology**
+A. Output Characteristics (Id vs. Vds): A DC sweep analysis was performed on the drain-to-source voltage (Vds) for various constant gate-to-source voltages (Vgs). This allowed for the clear visualization of the linear (resistive) and saturation regions.
+
+B. Transfer Characteristics (Id vs. Vgs): A DC sweep was performed on Vgs to analyze the transistor's turn-on behavior and extract the threshold voltage (Vt).
 
 <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/47664757-b6de-4b23-9c03-65585f06d1c0" />
 *Figure 1: NMOS Characteristics: Cut-off, Linear, and Saturation Regions.*
