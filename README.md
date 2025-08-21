@@ -205,9 +205,7 @@ This workshop provided a deep, practical understanding of the custom digital cir
 5. **System-Level Application Context:** Developed an understanding of how fundamental cell characteristics (like delay and slew rate) directly impact the timing of larger digital systems, establishing a crucial link between circuit design and **Static Timing Analysis (STA)**.
 
 ## 6. Conclusion
-This project successfully bridged the gap between theoretical device physics and practical, system-aware circuit design. The journey from characterizing a single NMOS transistor to performing a comprehensive robustness evaluation of a CMOS inverter has solidified a deep understanding of the entire design and analysis flow. The ability to not only simulate but also analytically model circuit behavior and understand its downstream impact on system timing represents a critical milestone.
-
-The skills in analytical modeling, advanced SPICE simulation, and performance optimization acquired through this workshop form a robust foundation for tackling more complex challenges in custom digital and analog IC design.
+The "CMOS Circuit Design and SPICE Simulation using SKY130 Technology Workshop" has provided me with a solid foundation in the principles and practices of modern integrated circuit design. The hands-on experience with SPICE simulations and the SKY130 PDK has been invaluable in bridging the gap between theoretical knowledge and practical application. I am confident that the skills acquired in this workshop will be directly applicable to future projects and professional opportunities in the field of VLSI design.
 
 ## 7. Acknowledgements
-My sincere gratitude to [VLSI System Design]( https://www.vlsisystemdesign.com/) for conducting this in-depth and meticulously structured workshop. The clear progression from fundamental device physics to critical system-level considerations like STA was exceptionally valuable. The hands-on labs and constant support were instrumental in translating complex concepts into practical, applicable skills.
+I would like to express my gratitude to the team at [VLSI System Design]( https://www.vlsisystemdesign.com/) for organizing and delivering this insightful and well-structured workshop. The expertise of the instructors and the quality of the learning materials were exceptional.
