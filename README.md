@@ -43,11 +43,9 @@ This repository presents a comprehensive, transistor-level analysis of fundament
 | Category                 | Tool/Technology        | Purpose & Key Usage                                                       |
 | ------------------------ | ---------------------- | ----------------------------------------------------------------- |
 | **Process Design Kit**   | SkyWater SKY130        | Provided the open-source transistor models, parasitic data, and process parameters essential for accurate circuit simulation.     |
-| **SPICE Circuit Simulator**      | NGSPICE                | Leveraged for performing DC, transient, and parametric sweep analyses to characterize device and circuit performance.
-. |
+| **SPICE Circuit Simulator**      | NGSPICE                | Leveraged for performing DC, transient, and parametric sweep analyses to characterize device and circuit performance.|
 | **Simulation Environmen** | Command Line (Linux)   | Utilized for running SPICE simulations and processing results.    |
-| **Verification Scope**      | Full PVT (Process, Voltage, Temperature)	   | Utilized a full range of industry-standard process corners (TT, FF, SS, FS, SF) to conduct a comprehensive robustness analysis.
-.             |
+| **Verification Scope**      | Full PVT (Process, Voltage, Temperature)	   | Utilized a full range of industry-standard process corners (TT, FF, SS, FS, SF) to conduct a comprehensive robustness analysis.  |
 
 ---
 
