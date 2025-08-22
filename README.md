@@ -231,7 +231,7 @@ This workshop provided a deep, practical understanding of the custom digital cir
 This workshop provided an invaluable, hands-on foundation in transistor-level CMOS design. More than just a series of experiments, it cultivated a deep, evidence-based intuition for how device-level physics dictates system-level outcomes. By characterizing the SKY130 transistors and analyzing their behavior across the full PVT range, I have learned to connect SPICE waveforms directly to the challenges of timing closure, power consumption, and design robustness. The key takeaway is an understanding that this device-level mastery is not academic—it is the critical skill required to make informed engineering trade-offs, accelerate design closure, and transform trial-and-error into targeted, effective solutions in complex VLSI projects.
 
 ## 8. Project Evaluation
-The project demonstrates structured analysis with clear plots, robust simulations, and well-documented netlists. *The Future enhancements have already been explored as part of this project and will be documented in the repository shortly*:
+The project demonstrates structured analysis with clear plots, robust simulations, and well-documented netlists. ***The Future enhancements have already been explored as part of this project and will be documented in the repository shortly***:
 
 ### 8.1. Current Strengths
 (i)   Delivered a structured and comprehensive project report covering NMOS device characterization, CMOS inverter VTC, and transient analysis, with embedded SPICE netlist snippets.
