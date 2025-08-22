@@ -18,10 +18,10 @@ This repository presents a comprehensive, transistor-level analysis of fundament
 
 (v)   **Automation and Data Analysis:** Developed shell scripts to automate the 27-run PVT simulation sweep and utilized Python for programmatic extraction of noise margins from raw simulation data.
 
-(v)   ***EDA Tools & Technology:**
-a. Simulator: Ngspice
-b. PDK: SKY130 130nm
-c. Waveform Analysis: GtkWave (or other relevant tool)
+(v)   **EDA Tools & Technology:**
+a. Simulator: Ngspice 
+b. PDK: SKY130 130nm 
+c. Waveform Analysis: GtkWave (or other relevant tool) 
 d. Automation: Bash Scripting, Python (NumPy)
 
 ## 3. Table of Contents
