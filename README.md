@@ -248,4 +248,4 @@ The project demonstrates structured analysis with clear plots, robust simulation
 (iii)   Expand coverage to PVT variations (TT/SS/FF at min/nom/max VDD and temperatures) and extract noise margins directly from the VTC for detailed robustness insights.
 
 ## 9. Acknowledgements
-I would like to express my gratitude to the team at [VLSI System Design]( https://www.vlsisystemdesign.com/) for organizing and delivering this insightful and well-structured workshop. The expertise of the instructors and the quality of the learning materials were exceptional.
+Special thanks are due to the expert instructors and the [VLSI System Design]( https://www.vlsisystemdesign.com/) team for developing and delivering this exceptional workshop. Their ability to distill complex device physics into intuitive concepts and their practical guidance during the hands-on SPICE labs were invaluable. This program has not only equipped me with critical technical skills but has also significantly deepened my passion for the field of VLSI. I am deeply appreciative of their commitment to high-quality engineering education.
