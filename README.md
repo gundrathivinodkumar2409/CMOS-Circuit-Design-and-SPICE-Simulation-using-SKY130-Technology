@@ -231,7 +231,7 @@ This workshop provided a deep, practical understanding of the custom digital cir
 This workshop provided an invaluable, hands-on foundation in transistor-level CMOS design. More than just a series of experiments, it cultivated a deep, evidence-based intuition for how device-level physics dictates system-level outcomes. By characterizing the SKY130 transistors and analyzing their behavior across the full PVT range, I have learned to connect SPICE waveforms directly to the challenges of timing closure, power consumption, and design robustness. The key takeaway is an understanding that this device-level mastery is not academic—it is the critical skill required to make informed engineering trade-offs, accelerate design closure, and transform trial-and-error into targeted, effective solutions in complex VLSI projects.
 
 ## 8. Project Evaluation
-The project demonstrates structured analysis with clear plots, robust simulations, and well-documented netlists. Future improvements include extending the study to device variations, complete PVT coverage, and automated reproducibility scripts for deeper technical impact.
+The project demonstrates structured analysis with clear plots, robust simulations, and well-documented netlists. The Future enhancements have already been explored as part of this project and will be documented in the repository shortly:
 
 ### 8.1. Current Strengths
 (i)   Delivered a structured and comprehensive project report covering NMOS device characterization, CMOS inverter VTC, and transient analysis, with embedded SPICE netlist snippets.
@@ -241,11 +241,11 @@ The project demonstrates structured analysis with clear plots, robust simulation
 (iii)   Implemented a robustness-focused “smart simulation” loop to sweep supply voltage (VDD) and analyze circuit behavior across ranges.
 
 ### 8.2. Future Improvements
-(i)   Extend analysis to include device-variation sweeps (e.g., W/L variations across model corners, not just TT).
+(i)   Device-variation sweeps – Analysis of W/L ratio variations across multiple model corners, beyond just the TT case.
 
-(ii)   Provide full SPICE decks and run scripts for complete reproducibility, instead of only including code snippets.
+(ii)   Reproducibility enhancements – Preparation of complete SPICE decks and automated run scripts for full end-to-end reproducibility.
 
-(iii)   Expand coverage to PVT variations (TT/SS/FF at min/nom/max VDD and temperatures) and extract noise margins directly from the VTC for detailed robustness insights.
+(iii)   Comprehensive PVT analysis – Evaluation across TT/SS/FF corners at min/nom/max supply voltages and temperatures, along with extraction of noise margins from the VTC for detailed robustness insights.
 
 ## 9. Acknowledgements
 Special thanks are due to the expert instructors and the [VLSI System Design]( https://www.vlsisystemdesign.com/) team for developing and delivering this exceptional workshop. Their ability to distill complex device physics into intuitive concepts and their practical guidance during the hands-on SPICE labs were invaluable. This program has not only equipped me with critical technical skills but has also significantly deepened my passion for the field of VLSI. I am deeply appreciative of their commitment to high-quality engineering education.
