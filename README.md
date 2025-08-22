@@ -9,10 +9,15 @@ This repository presents a comprehensive, transistor-level analysis of fundament
 ## 2. Core Competencies and Skills Demonstrated
 
 (i)   **Semiconductor Device Characterization:** Proficient in analyzing NMOS/PMOS I-V and transfer characteristics, including short-channel effects like velocity saturation.
+
 (ii)   **Advanced SPICE Simulation:** Expertise in designing and executing complex SPICE simulations, including DC, transient, and parametric sweeps across multiple domains (Process, Voltage, Temperature).
+
 (iii)   **Digital Circuit Performance Analysis:** In-depth evaluation of CMOS inverter metrics: Voltage Transfer Characteristics (VTC), Switching Threshold (Vm), Noise Margins (NML, NMH), and Propagation Delays (t_phl, t_plh).
+
 (iv)   **Industry-Standard Robustness Verification:** Performed comprehensive PVT analysis across **5 process corners (TT, FF, SS, FS, SF)**, multiple supply voltages, and a wide temperature range to quantify circuit resilience and identify worst-case performance scenarios.
+
 (v)   **Automation and Data Analysis:** Developed shell scripts to automate the 27-run PVT simulation sweep and utilized Python for programmatic extraction of noise margins from raw simulation data.
+
 (v)   ***EDA Tools & Technology:**
 a. Simulator: Ngspice
 b. PDK: SKY130 130nm
