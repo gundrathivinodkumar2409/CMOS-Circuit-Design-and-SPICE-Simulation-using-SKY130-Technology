@@ -4,25 +4,20 @@
 
 ## 1. Executive Summary
 
-This repository presents a detailed technical summary of the experiments and learnings from the "CMOS Circuit Design and SPICE Simulation using SKY130 Technology Workshop" organized by [VLSI System Design]( https://www.vlsisystemdesign.com/). The project involved a comprehensive, transistor-level analysis of fundamental CMOS circuits. All simulations were performed using the Ngspice circuit simulator with the open-source SKY130 Process Design Kit (PDK). The core focus was on characterizing device behavior, analyzing the static and dynamic performance of a CMOS inverter, and evaluating its robustness against process and environmental variations.
+This repository presents a comprehensive, transistor-level analysis of fundamental CMOS circuits, culminating in a full **Process, Voltage, and Temperature (PVT) variation analysis**. The project, based on the "CMOS Circuit Design and SPICE Simulation" workshop organized by [VLSI System Design]( https://www.vlsisystemdesign.com/), utilizes the Ngspice simulator and the open-source **SKY130 Process Design Kit (PDK)**. Key objectives included device characterization, static/dynamic inverter analysis, and a rigorous evaluation of circuit robustness across a wide range of operating conditions, mirroring industry-standard verification practices. All simulations are fully documented and reproducible via the provided SPICE decks and run scripts.
 
 ## 2. Core Competencies and Skills Demonstrated
-(i) Semiconductor Device Physics: Strong understanding of NMOS/PMOS transistor operation, including I-V characteristics, operating regions, velocity saturation, and the body effect.
 
-(ii) SPICE Simulation & Analysis: Proficiency in writing SPICE netlists for DC, transient, and parametric sweep analyses. Skilled in interpreting simulation outputs to extract critical performance metrics.
-
-(iii) CMOS Circuit Characterization: In-depth analysis of CMOS inverter performance, including:
-a. Voltage Transfer Characteristics (VTC)
-b. Switching Threshold (Vm)
-c. Noise Margins (NML, NMH)
-d. Propagation Delay, Rise/Fall Times
-
-(iv) Robustness and Variability Analysis: Practical experience in evaluating the impact of Process, Voltage, and Temperature (PVT) variations on circuit performance, a critical aspect of modern IC design.
-
-(v) EDA Tools & Technology:
+(i)   **Semiconductor Device Characterization:** Proficient in analyzing NMOS/PMOS I-V and transfer characteristics, including short-channel effects like velocity saturation.
+(ii)   **Advanced SPICE Simulation:** Expertise in designing and executing complex SPICE simulations, including DC, transient, and parametric sweeps across multiple domains (Process, Voltage, Temperature).
+(iii)   **Digital Circuit Performance Analysis:** In-depth evaluation of CMOS inverter metrics: Voltage Transfer Characteristics (VTC), Switching Threshold (Vm), Noise Margins (NML, NMH), and Propagation Delays (t_phl, t_plh).
+(iv)   **Industry-Standard Robustness Verification:** Performed comprehensive PVT analysis across **5 process corners (TT, FF, SS, FS, SF)**, multiple supply voltages, and a wide temperature range to quantify circuit resilience and identify worst-case performance scenarios.
+(v)   **Automation and Data Analysis:** Developed shell scripts to automate the 27-run PVT simulation sweep and utilized Python for programmatic extraction of noise margins from raw simulation data.
+(v)   ***EDA Tools & Technology:**
 a. Simulator: Ngspice
 b. PDK: SKY130 130nm
 c. Waveform Analysis: GtkWave (or other relevant tool)
+d. Automation: Bash Scripting, Python (NumPy)
 
 ## 3. Table of Contents
 
