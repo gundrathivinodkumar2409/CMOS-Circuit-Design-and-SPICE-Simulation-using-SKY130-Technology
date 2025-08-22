@@ -36,7 +36,10 @@ d. Automation: Bash Scripting, Python (NumPy)
     *   [4.3. Experiment 3: Inverter Robustness Evaluation](#53-experiment-3-inverter-robustness-evaluation)
 6.  [Key Learnings and Skill Development](#6-key-learnings-and-skill-development)
 7.  [Conclusion](#7-conclusion)
-8.  [Acknowledgements](#8-acknowledgements)
+8.  [Project Evaluation](#8-project-evaluation)
+       *   [8.1. Current Strengths](#81-current-strengths)
+       *   [8.2. Future Improvements](#82-future-improvements)
+9.  [Acknowledgements](#9-acknowledgements)
 
 ## 4. Tools and Technology Stack
 
@@ -226,5 +229,22 @@ This workshop provided a deep, practical understanding of the custom digital cir
 ## 7. Conclusion
 The "CMOS Circuit Design and SPICE Simulation using SKY130 Technology Workshop" has provided an invaluable, hands-on foundation in transistor-level CMOS circuit design and simulation. Through a series of structured experiments, I developed a practical understanding of how device physics translates to circuit performance. The use of the industry-relevant SKY130 PDK and SPICE has equipped me with the skills to analyze, characterize, and evaluate fundamental digital circuits. The key takeaway is the deep appreciation for the design trade-offs between performance, power, and robustness that are central to the field of VLSI design.
 
-## 8. Acknowledgements
+## 8. Project Evaluation
+The project demonstrates structured analysis with clear plots, robust simulations, and well-documented netlists. Future improvements include extending the study to device variations, complete PVT coverage, and automated reproducibility scripts for deeper technical impact.
+
+### 8.1. ✅ Current Strengths
+(i)   Delivered a structured and comprehensive project report covering NMOS device characterization, CMOS inverter VTC, and transient analysis, with embedded SPICE netlist snippets.
+
+(ii)   Demonstrated results with actual VTC and timing plots, presented in a clear and legible format.
+
+(iii)   Implemented a robustness-focused “smart simulation” loop to sweep supply voltage (VDD) and analyze circuit behavior across ranges.
+
+### 8.2. 🚀 Future Improvements
+(i)   Extend analysis to include device-variation sweeps (e.g., W/L variations across model corners, not just TT).
+
+(ii)   Provide full SPICE decks and run scripts for complete reproducibility, instead of only including code snippets.
+
+(iii)   Expand coverage to PVT variations (TT/SS/FF at min/nom/max VDD and temperatures) and extract noise margins directly from the VTC for detailed robustness insights.
+
+## 9. Acknowledgements
 I would like to express my gratitude to the team at [VLSI System Design]( https://www.vlsisystemdesign.com/) for organizing and delivering this insightful and well-structured workshop. The expertise of the instructors and the quality of the learning materials were exceptional.
