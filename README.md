@@ -218,9 +218,13 @@ Figure 10: A strong PMOS relative to the NMOS shifts the switching threshold to 
 This workshop provided a deep, practical understanding of the custom digital circuit design flow. The key skills developed are:
 
 (i)  **Semiconductor Device Physics:** Gained a practical understanding of MOSFET I-V characteristics, **transconductance (gm)**, and output resistance (ro), distinguishing between long and short-channel device behavior and analyzing the impact of **velocity saturation**.
+
 (ii)  **Digital Circuit Design & Optimization:** Proficient in designing and sizing CMOS inverters by manipulating W/L ratios to meet specific performance targets, such as achieving a desired **switching threshold (Vm)**, balancing propagation delays, and optimizing noise margins.
+
 (iii)  **Advanced SPICE Simulation:** Mastered the creation of SPICE decks from scratch, writing netlists, and executing various analyses including .dc, .tran, and scripted parametric sweeps to efficiently characterize circuits across multiple conditions.
+
 (iv)  **Comprehensive PVT Robustness Analysis:** Gained proficiency in evaluating circuit robustness by performing simulations across the full **Process, Voltage, and Temperature (PVT)** spectrum. This involved characterizing circuit performance shifts at various process corners (TT/FF/SS), supply voltages, and temperatures (-40°C to 125°C) to identify worst-case operational scenarios.
+
 (v)  **Connecting Circuits to Systems (STA):** Established the crucial link between transistor-level SPICE simulations and the characterization data found in standard cell libraries (**.lib files**). Understood how the delays, slews, and constraints derived from these simulations are consumed by tools for **Static Timing Analysis (STA)** and timing closure.
 
 ## 7. Conclusion
