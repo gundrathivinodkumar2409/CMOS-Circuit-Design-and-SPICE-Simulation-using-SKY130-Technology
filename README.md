@@ -232,14 +232,14 @@ The "CMOS Circuit Design and SPICE Simulation using SKY130 Technology Workshop" 
 ## 8. Project Evaluation
 The project demonstrates structured analysis with clear plots, robust simulations, and well-documented netlists. Future improvements include extending the study to device variations, complete PVT coverage, and automated reproducibility scripts for deeper technical impact.
 
-### 8.1. ✅ Current Strengths
+### 8.1. Current Strengths
 (i)   Delivered a structured and comprehensive project report covering NMOS device characterization, CMOS inverter VTC, and transient analysis, with embedded SPICE netlist snippets.
 
 (ii)   Demonstrated results with actual VTC and timing plots, presented in a clear and legible format.
 
 (iii)   Implemented a robustness-focused “smart simulation” loop to sweep supply voltage (VDD) and analyze circuit behavior across ranges.
 
-### 8.2. 🚀 Future Improvements
+### 8.2. Future Improvements
 (i)   Extend analysis to include device-variation sweeps (e.g., W/L variations across model corners, not just TT).
 
 (ii)   Provide full SPICE decks and run scripts for complete reproducibility, instead of only including code snippets.
